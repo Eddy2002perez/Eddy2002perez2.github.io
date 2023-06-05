@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordatorio Medico</title>
+    <style>
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <video autoplay loop muted>
+        <source src="1.mp4" type="video/mp4">
+    </video>
+    <div class="cap"></div>
+
+    <div class="container">
+        <center>
+            <h1>BIENVENIDO</h1>
+        </center>
+
+        <div class="centrar-imagen"> <center>
+            <img src="logo1.png" alt="" width="500" height="500">
+        </center>
+        </div>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary boton" type="button" onclick="window.location.href = 'inicioSesion.php';">INICIAR SESION</button>
+            <button class="btn btn-primary boton" type="button" onclick="window.location.href = 'registro.php';">REGISTRARSE</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
